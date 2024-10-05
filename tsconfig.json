@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "module": "Node16",
+     "module": "Node16",
     "target": "ES2020",
     "outDir": "out",
     "lib": ["ES2020"] ,
@@ -13,6 +13,7 @@
     "noFallthroughCasesInSwitch": true /* Report errors for fallthrough cases in switch statement. */,
     "esModuleInterop": true
   },
+  "ts-node": {"esm": true},
   // "include": ["src/**/*", "test/**/*"],
   "exclude": ["node_modules", ".vscode-test", "webpack.config.ts"]
 }
